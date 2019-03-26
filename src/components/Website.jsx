@@ -51,7 +51,7 @@ export default class Website extends Component {
                                     
                                 </Row>
                         </div>
-                        </Col>
+                    </Col>
                 </Row>
                 <Row>
                 <Col xs={12} sm={12} md={12}>
