@@ -1,0 +1,13 @@
+/*  Side nav on middle of the screen */
+#sideNav {
+    margin-top: 270px;  
+}
+/* space to the right of the side nav */
+#sideNav li {
+    margin-right: 5px;
+}
+/* space around side nav items */
+#sideIcons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,59 @@
+  /* Hide scrollbar */
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  /* height of each view */
+    #about, #features, #home {
+      padding-top: 80px;
+      height: 600px;
+  }
+  /* Top banner */
+  .banner {
+    background-image: url('/assets/invBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Center items in view */
+  #about {
+    padding-top: 150px;
+  }
+  /* Style titles in views */
+  #about h2, #features h2  {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* Style subtitle */
+  #about h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* Info text white */
+  .aboutText, .featuresText {
+    color: white;
+  }
+  /* Space around store logos */
+  .storeLogo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* space around list items */
+  #features li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* Phone frame for app video */
+  #phone {
+    background: url('/assets/pixelMockUp.png') no-repeat transparent;
+    margin: auto 0;
+    width: 270;
+    height: 500px;
+    background-size: 270px 500px;
+    position: relative;
+  }
+  /* Place the video inside the phone frame */
+  Video {
+    margin-left: 27px;
+    margin-top: 58px;
+  }

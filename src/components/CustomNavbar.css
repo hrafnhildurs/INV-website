@@ -1,0 +1,14 @@
+
+/* Navbar text white */
+.navbar-light, .navbar-brand {
+    color: white !important;
+}
+/* space to the right of the contact icons */
+#contactLinks {
+    margin-right: 10px;
+}
+/* Make contact icons larger on hover */
+#icon:hover {
+    font-size: 32px;
+    transition: font-size 10s ease;
+}
